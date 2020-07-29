@@ -4,7 +4,8 @@
   "description": "An application that keeps track of all tacos consumed.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "cd seeders && node seeder.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,9 @@
   "homepage": "https://github.com/laurengarelick/Taco_Tracker#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.4",
+    "express-handlebars": "^4.0.6",
     "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
     "sequelize": "^5.21.12"
   }
 }
